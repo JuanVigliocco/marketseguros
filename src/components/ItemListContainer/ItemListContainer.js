@@ -1,8 +1,9 @@
 import React from "react"
+import "../"
 
 const ItemListContainer = (props) => {
     return(
-        <p>{props.greetings}</p>
+        <p className="centrado">{props.greetings}</p>
     )
 }
 

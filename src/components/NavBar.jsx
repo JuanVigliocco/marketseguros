@@ -24,7 +24,7 @@ export default function NavBar ({arrayDeLink}){
       <Nav.Link href="#pricing">Contacto</Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">Carrito  <CartWidget/></Nav.Link>
+      <Nav.Link href="#deets"> <CartWidget/></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
