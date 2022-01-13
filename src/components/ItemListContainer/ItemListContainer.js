@@ -1,5 +1,5 @@
 import React from "react"
-import "../"
+
 
 const ItemListContainer = (props) => {
     return(
