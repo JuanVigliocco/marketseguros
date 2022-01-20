@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import swal from "sweetalert";
 
-export const ItemCount = ({ initial, stock }) => {
+const ItemCount = ({ initial, stock }) => {
   const [count, setCount] = useState(initial);
 
   function increaseItem() {
@@ -40,3 +40,5 @@ export const ItemCount = ({ initial, stock }) => {
     </div>
   );
 };
+
+export default ItemCount

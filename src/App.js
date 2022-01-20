@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import {ItemListContainer} from './components/ItemListContainer/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Item from "./components/Item/Item"
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
   return (
     <div className='app'>
     <NavBar />
-    <ItemListContainer titulo={"Inmobiliaria y Seguros"} />
+    <Item />
+    <ItemListContainer />
     </div>
   );
 }
